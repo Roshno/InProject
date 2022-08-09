@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="enquiryMain.css">
+    <title>Enquiry</title>
+</head>
+<body>
+    <div class="searchById">
+        <label for="byId">Enquire By Id: </label>
+        <input type="text" id="byId">
+        <button id ="searchButton"> <a href="enquiryById.html" style="text-decoration:none">Search</a></button>
+    </div>
+    <div class ="searchByStatus">
+        <label for="byStatus">Enquire By Status:  </label>
+        <label for="selected">Selected</label>
+        <input type="radio" name="choose" id="selected">
+        <label for="admitted">admitted</label>
+        <input type="radio" name="choose" id="admitted">
+        <label for="rejected">Rejected</label>
+        <input type="radio" name="choose" id="rejected">
+        <label for="closed">Closed</label>
+        <input type="radio" name="choose" id="closed">
+        <button> <a href="enquiryByStatus.html" style="text-decoration: none;">Search</a></button>
+    </div>
+    <div class="addNewEnquiry">
+        <button> <a href="enquiryAdd.html" style="text-decoration: none;">Add Enquiry</a></button>
+    </div>
+    <script src="enquiryMain.js"></script>
+</body>
+</html>
